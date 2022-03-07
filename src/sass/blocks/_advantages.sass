@@ -22,8 +22,40 @@
         max-width: 271px
         text-align: center
         margin: 20px 0 65px 0
+        a
+            color: $main-color
     &__name
         text-align: center
         font-weight: 600
         font-size: 18px
         margin-top: 30px
+
+
+@media screen and ( max-width:  991px)
+    .advantages
+        &__advantages
+            margin: 65px 20px 0 20px
+        &__desc
+            max-width: 240px
+
+
+@media screen and ( max-width:  767px)
+    .advantages
+        &__name
+            font-size: 16px
+        &__desc
+            max-width: 200px
+
+
+@media screen and ( max-width:  575px)
+    .advantages
+        &__header
+            margin: 0px 20px 0 20px
+            font-size: 25px
+        &__advantages
+            flex-direction: column
+            align-items: center
+        &__name
+            font-size: 18px
+        &__desc
+            max-width: 271px
