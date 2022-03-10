@@ -34,7 +34,7 @@
     &__content
         margin-top: 60px
         display: none
-        justify-content: space-between
+        justify-content: center
         flex-wrap: wrap
         &_active
             display: flex
@@ -44,6 +44,8 @@
         border: 2px solid #E8E8E8
         padding: 20px 20px 26px 20px
         overflow: hidden
+        margin-right: 8px
+        margin-left: 8px
         margin-bottom: 20px
         &__img
             max-width: 100%
@@ -143,3 +145,19 @@
                 color: $main-color
                     
 
+@media screen and ( max-width:  767px)
+    .catalog
+        &__tab
+            width: 170px
+            font-size: 16px
+
+
+@media screen and ( max-width:  575px)
+    .catalog
+        &__tab
+            width: 110px
+            font-size: 11px
+            margin: 0 4px
+            transform: skewX(-15deg)
+            div
+                transform: skewX(15deg)
