@@ -12,6 +12,10 @@
         margin: 0 auto
         img
             display: block
+        &_animated
+            animation: heartbeat 1.8s ease infinite 
+            &:hover
+                animation-play-state: paused
     &__desc
         font-weight: 300
         font-size: 14px
