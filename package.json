@@ -25,5 +25,9 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0"
   }
 }
